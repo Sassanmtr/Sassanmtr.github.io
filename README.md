@@ -1,18 +1,28 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Python, MATLAB, ROS, IsaacSim, Pybullet, PyTorch, PyTorch Lightning, TensorFlow
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- M.S., Computer Science | The University of Freiburg (_December 2023_)								       		
+- M.S., Scientific Computing	| The University of Heidelberg (_March 2019_)	 			        		
+- B.S., Applied Mathematics | The University of Shiraz (_August 2015_)
 
-## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+## Experience
+**Research Assistant @ Autonomous Intelligent Systems, University of Freiburg (_January 2023 - Present_)**
+- Configuring a mobile manipulation robot for executing grasping tasks in a real-world setting
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+**Research Assistant @ Robot Learning Lab, University of Freiburg (_January 2022 - Present_)***
+- Generating a dataset in medical scenes for a range of Computer Vision tasks using Isaac Sim
+- Generating a dataset for object detection task using Isaac Sim
+
+**Research Assistant @ Chair of Mathematics for Uncertainty Quantification, RWTH Aachen University (_October 2019 - July 2020_)***
+- Analysis of Stochastic Differential Equations
+- Optimal importance sampling for rare events
+
+## Project
+### Policy Learning for Real-time Generative Grasp Synthesis @ Robot Learning Lab, University of Freiburg
+- Designed a realistic setup for mobile manipulation robot grasping in Isaac Sim
+- Evaluated the performance of Computer-Vision-based and Policy-Learning-based approaches 
+- Developed an interactive imitation learning model that outperforms existing models in this setup
+
 
