@@ -1,7 +1,6 @@
 ## About
 Hi!, I am a Computer Science master's student specializing in Artificial Intelligence at Freiburg University. My research revolves around robot manipulation, spanning policy learning methods to computer vision-based approaches. Currently, I'm working on my master's thesis under the guidance of Prof. Abhinav Valada and Eugenio Chisari in the Robot Learning lab, where I utilize Computer Vision-based approaches to tackle the manipulation task for articulated objects. As a research assistant, my primary focus is generating datasets for various computer vision tasks, including object detection, depth estimation, and instance segmentation. 
-  Prior to this I mainly considered the theoretical aspects of Applied Mathematics. I was a research associate in the Mathematics for Uncertainty Quantification group at RWTH Aachen University, analyzing stochastic differential equations. I hold a master's degree in Scientific Computing from Heidelberg University, where I specialized in partial differential equation analysis, and a bachelor's degree in Applied Mathematics from Shiraz University.
-## [CV](/asset/CV.pdf)
+  Prior to this I mainly considered the theoretical aspects of Applied Mathematics. I was a research associate in the Mathematics for Uncertainty Quantification group at RWTH Aachen University, analyzing stochastic differential equations. I hold a master's degree in Scientific Computing from Heidelberg University, where I specialized in partial differential equation analysis, and a bachelor's degree in Applied Mathematics from Shiraz University: [CV](/asset/CV.pdf)
 ## Publication
 ### Syn-Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities 
 ### [PDF](https://arxiv.org/abs/2308.03193), [Website](http://syn-mediverse.cs.uni-freiburg.de/)
@@ -11,7 +10,7 @@ Hi!, I am a Computer Science master's student specializing in Artificial Intelli
 
   
 ## Selected Projects
-### Policy Learning for Real-time Generative Grasp Synthesis @ Robot Learning Lab, University of Freiburg
+### Policy Learning for Real-time Generative Grasp Synthesis
 - Designed a realistic setup for mobile manipulation robot grasping in Isaac Sim
 - Evaluated the performance of computer-vision-based and Policy-Learning-based approaches 
 - Developed an interactive imitation learning model that outperforms existing models in this setup
