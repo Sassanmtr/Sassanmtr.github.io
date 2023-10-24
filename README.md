@@ -4,7 +4,7 @@ Hi!, I am a Computer Science master's student specializing in Artificial Intelli
 
 ## Publication
 ### Syn-Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities 
-### [PDF](https://arxiv.org/abs/2308.03193), [Website](http://syn-mediverse.cs.uni-freiburg.de/)
+### [PDF](https://arxiv.org/abs/2308.03193), [Website](http://syn-mediverse.cs.uni-freiburg.de/), [Video](https://www.youtube.com/watch?v=itAL_z_8kHY)
 - The first hyper-realistic multimodal synthetic dataset of diverse healthcare facilities
 - Provide more than 1.5M annotations spanning five different scene understanding tasks
 - Provide an online evaluation benchmark along with the public dataset
