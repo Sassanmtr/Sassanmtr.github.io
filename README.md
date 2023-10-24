@@ -1,10 +1,10 @@
 ## About
-Hi!, I am a Computer Science master's student specializing in Artificial Intelligence at Freiburg University. My research revolves around robot manipulation, spanning policy learning methods to computer vision-based approaches. Currently, I'm working on my master's thesis under the guidance of Prof. Abhinav Valada and Eugenio Chisari in the Robot Learning lab, where I utilize Computer Vision-based approaches to tackle the manipulation task for articulated objects. As a research assistant, my primary focus is generating datasets for various computer vision tasks, including object detection, depth estimation, and instance segmentation. 
+Hi, I am a Computer Science master's student specializing in Artificial Intelligence at Freiburg University. My research revolves around robot manipulation, spanning policy learning methods to computer vision-based approaches. Currently, I'm working on my master's thesis under the guidance of Prof. Abhinav Valada and Eugenio Chisari in the Robot Learning lab, where I utilize Computer Vision-based approaches to tackle the manipulation task for articulated objects. As a research assistant, my primary focus is generating datasets for various computer vision tasks, including object detection, depth estimation, and instance segmentation. 
   Prior to this I mainly considered the theoretical aspects of Applied Mathematics. I was a research associate in the Mathematics for Uncertainty Quantification group at RWTH Aachen University, analyzing stochastic differential equations. I hold a master's degree in Scientific Computing from Heidelberg University, where I specialized in partial differential equation analysis, and a bachelor's degree in Applied Mathematics from Shiraz University: [CV](/asset/CV.pdf)
 
 ## Publication
 ### Syn-Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities 
-### [PDF](https://arxiv.org/abs/2308.03193), [Website](http://syn-mediverse.cs.uni-freiburg.de/)
+### [PDF](https://arxiv.org/abs/2308.03193), [Website](http://syn-mediverse.cs.uni-freiburg.de/), [Video](https://www.youtube.com/watch?v=itAL_z_8kHY)
 - The first hyper-realistic multimodal synthetic dataset of diverse healthcare facilities
 - Provide more than 1.5M annotations spanning five different scene understanding tasks
 - Provide an online evaluation benchmark along with the public dataset
@@ -21,7 +21,7 @@ Hi!, I am a Computer Science master's student specializing in Artificial Intelli
 - Refine the learned Gaussian mixture model with the Soft Actor-Critic model
 - Apply Autoencoder to process the input images in latent space
 
-### Optimal Importance Sampling Change of Measure for Large Sums of Random Variables [Slides](/asset/Rare_event.pdf) [Codes](/asset/WeibullRareEvent.m)
+### Optimal Importance Sampling Change of Measure for Large Sums of Random Variables [Slides](/asset/Rare_event.pdf), [Codes](/asset/WeibullRareEvent.m)
 - Evaluate different approaches based on Importance Sampling to estimate rare-event probabilities
 - Develop an alternative change of measure using Exponential twisting that leads to the same performance
 - as the optimal change of measure but without its computational limitations
