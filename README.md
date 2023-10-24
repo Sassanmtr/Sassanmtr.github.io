@@ -21,7 +21,7 @@ Hi!, I am a Computer Science master's student specializing in Artificial Intelli
 - Refine the learned Gaussian mixture model with the Soft Actor-Critic model
 - Apply Autoencoder to process the input images in latent space
 
-### Optimal Importance Sampling Change of Measure for Large Sums of Random Variables [Slides](/asset/Rare_event.pdf) [Codes](/asset/WeibullRareEvent.m)
+### Optimal Importance Sampling Change of Measure for Large Sums of Random Variables [Slides](/asset/Rare_event.pdf), [Codes](/asset/WeibullRareEvent.m)
 - Evaluate different approaches based on Importance Sampling to estimate rare-event probabilities
 - Develop an alternative change of measure using Exponential twisting that leads to the same performance
 - as the optimal change of measure but without its computational limitations
