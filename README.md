@@ -1,8 +1,14 @@
 ## About
-Hi, I am a Computer Science master's student specializing in Artificial Intelligence at Freiburg University. My research revolves around robot manipulation, spanning policy learning methods to computer vision-based approaches. Currently, I'm working on my master's thesis under the guidance of Prof. Abhinav Valada and Eugenio Chisari in the Robot Learning lab, where I utilize Computer Vision-based approaches to tackle the manipulation task for articulated objects. As a research assistant, my primary focus is generating datasets for various computer vision tasks, including object detection, depth estimation, and instance segmentation. 
-  Prior to this I mainly considered the theoretical aspects of Applied Mathematics. I was a research associate in the Mathematics for Uncertainty Quantification group at RWTH Aachen University, analyzing stochastic differential equations. I hold a master's degree in Scientific Computing from Heidelberg University, where I specialized in partial differential equation analysis, and a bachelor's degree in Applied Mathematics from Shiraz University: [CV](/asset/CV.pdf)
+Hi, I am a Computer Science master's graduate, specializing in Artificial Intelligence from Freiburg University. My research revolves around robot manipulation, spanning policy learning methods to computer vision-based approaches. I recently completed my master's thesis, which has been accepted as a workshop paper at ICRA, under the guidance of Eugenio Chisari, Nick Heppert, and Prof. Abhinav Valada in the Robot Learning lab of Freiburg University. My thesis explores Computer Vision-based approaches to tackle 6-DoF grasp estimation of articulated objects. As a research assistant, I played a key role in generating datasets for various computer vision tasks, including object detection, pose estimation, depth estimation, and instance segmentation. 
+  Before this, I mainly considered the theoretical aspects of Applied Mathematics. I was a research associate in the Mathematics for Uncertainty Quantification group at RWTH Aachen University, analyzing stochastic differential equations. I hold a master's degree in Scientific Computing from Heidelberg University, where I specialized in partial differential equation analysis, and a bachelor's degree in Applied Mathematics from Shiraz University: [CV](/asset/CV.pdf)
 
 ## Publication
+### CenterArt: Joint Shape Reconstruction and 6-DoF Grasp Estimation of Articulated Objects 
+### [PDF](https://arxiv.org/abs/2404.14968), [Poster](https://docs.google.com/presentation/d/1QPcWd_ctpFwbuVFwgEyJNDXbCQiH0S6Sl7WAc27zNko/edit?usp=sharing), [Video](https://youtu.be/yhFBh0kZs5Y)
+- Introduce the first approach capable of jointly reconstructing 3D shapes and predicting 6-DoF grasp poses for articulated objects
+-  Generate a dataset of valid 6-DoF grasp poses for articulated objects
+- Generate a dataset of photo-realistic kitchen scenes consisting of articulated objects
+
 ### Syn-Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities 
 ### [PDF](https://arxiv.org/abs/2308.03193), [Website](http://syn-mediverse.cs.uni-freiburg.de/), [Video](https://www.youtube.com/watch?v=itAL_z_8kHY)
 - The first hyper-realistic multimodal synthetic dataset of diverse healthcare facilities
@@ -12,9 +18,9 @@ Hi, I am a Computer Science master's student specializing in Artificial Intellig
   
 ## Selected Projects
 ### Policy Learning for Real-time Generative Grasp Synthesis [Slides](/asset/MasterProject.pdf)
-- Designed a realistic setup for mobile manipulation robot grasping in Isaac Sim
-- Evaluated the performance of computer-vision-based and Policy-Learning-based approaches 
-- Developed an interactive imitation learning model that outperforms existing models in this setup
+- Design a realistic setup for mobile manipulation robot grasping in Isaac Sim
+- Evaluate the performance of computer-vision-based and Policy-Learning-based approaches 
+- Develop an interactive imitation learning model that outperforms existing models in this setup
 
 ### Robot Skill Adaptation via Soft Actor-Critic Gaussian Mixture Models [Poster](/asset/poster.pdf)
 - Learn a dynamical model with Gaussian mixture models from a few demonstrations
