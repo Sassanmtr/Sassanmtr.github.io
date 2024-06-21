@@ -3,13 +3,13 @@ Hi, I am a Computer Science master's graduate, specializing in Artificial Intell
   Before this, I mainly considered the theoretical aspects of Applied Mathematics. I was a research associate in the Mathematics for Uncertainty Quantification group at RWTH Aachen University, analyzing stochastic differential equations. I hold a master's degree in Scientific Computing from Heidelberg University, where I specialized in partial differential equation analysis, and a bachelor's degree in Applied Mathematics from Shiraz University: [CV](/asset/CV.pdf)
 
 ## Publication
-### CenterArt: Joint Shape Reconstruction and 6-DoF Grasp Estimation of Articulated Objects 
+### CenterArt: Joint Shape Reconstruction and 6-DoF Grasp Estimation of Articulated Objects (ICRA Workshop)
 ### [PDF](https://arxiv.org/abs/2404.14968), [Poster](https://docs.google.com/presentation/d/1QPcWd_ctpFwbuVFwgEyJNDXbCQiH0S6Sl7WAc27zNko/edit?usp=sharing), [Video](https://youtu.be/yhFBh0kZs5Y)
 - Introduce the first approach capable of jointly reconstructing 3D shapes and predicting 6-DoF grasp poses for articulated objects
 -  Generate a dataset of valid 6-DoF grasp poses for articulated objects
 - Generate a dataset of photo-realistic kitchen scenes consisting of articulated objects
 
-### Syn-Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities 
+### Syn-Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities (RA-L Journal)
 ### [PDF](https://arxiv.org/abs/2308.03193), [Website](http://syn-mediverse.cs.uni-freiburg.de/), [Video](https://www.youtube.com/watch?v=itAL_z_8kHY)
 - The first hyper-realistic multimodal synthetic dataset of diverse healthcare facilities
 - Provide more than 1.5M annotations spanning five different scene understanding tasks
