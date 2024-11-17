@@ -7,7 +7,7 @@ Before this, I mainly considered the theoretical aspects of Applied Mathematics.
 
 ## Publication
 ### CenterArt: Joint Shape Reconstruction and 6-DoF Grasp Estimation of Articulated Objects (ICRA Workshop)
-### [PDF](https://arxiv.org/abs/2404.14968), [Poster](https://docs.google.com/presentation/d/1QPcWd_ctpFwbuVFwgEyJNDXbCQiH0S6Sl7WAc27zNko/edit?usp=sharing), [Video](https://youtu.be/yhFBh0kZs5Y)
+### [PDF](https://arxiv.org/abs/2404.14968), [Code](https://github.com/Sassanmtr/CenterArt), [Poster](https://docs.google.com/presentation/d/1QPcWd_ctpFwbuVFwgEyJNDXbCQiH0S6Sl7WAc27zNko/edit?usp=sharing), [Video](https://youtu.be/yhFBh0kZs5Y)
 - Introduce the first approach capable of jointly reconstructing 3D shapes and predicting 6-DoF grasp poses for articulated objects
 -  Generate a dataset of valid 6-DoF grasp poses for articulated objects
 - Generate a dataset of photo-realistic kitchen scenes consisting of articulated objects
