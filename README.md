@@ -20,7 +20,7 @@ Before this, I mainly considered the theoretical aspects of Applied Mathematics.
 
   
 ## Selected Projects
-### Policy Learning for Real-time Generative Grasp Synthesis [Slides](/asset/MasterProject.pdf)
+### Policy Learning for Real-time Generative Grasp Synthesis [Slides](/asset/MasterProject.pdf), [Code](https://github.com/Sassanmtr/GraspPolicyLearning)
 - Design a realistic setup for mobile manipulation robot grasping in Isaac Sim
 - Evaluate the performance of computer-vision-based and Policy-Learning-based approaches 
 - Develop an interactive imitation learning model that outperforms existing models in this setup
