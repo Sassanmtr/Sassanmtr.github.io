@@ -20,10 +20,10 @@
           <button id="navToggle" class="nav-toggle"><i class="fas fa-bars"></i></button>
           <ul class="menu">
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
             <li><a href="#publications">Publications</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="assets/CV.pdf" target="_blank" download>Resume</a></li>
+            <li><a href="assets/CV.pdf" target="_blank">Resume</a></li>
           </ul>
         </div>
       </nav>
@@ -42,19 +42,53 @@
         <div class="bio">
           <p>Hi, I am a Computer Science master’s graduate specializing in Artificial Intelligence from Freiburg University. My current research focuses on leveraging large language models (LLMs) and vision-language models (VLMs) for industrial applications, with an emphasis on anomaly detection. I am currently an intern at Endress+Hauser, where I am working on developing a text-guided anomaly detection method that incorporates semantic insights from these models.</p>
           <p>Previously, I explored computer vision-based approaches in robot manipulation as part of my master’s thesis in the Robot Learning Lab at Freiburg University. This work, accepted as a workshop paper at ICRA, examined 6-DoF grasp estimation of articulated objects and was supervised by Eugenio Chisari, Nick Heppert, and Prof. Abhinav Valada. As a research assistant, I contributed to computer vision datasets for tasks like object detection, pose estimation, depth estimation, and instance segmentation.</p>
-          <p>Before this, I mainly considered the theoretical aspects of Applied Mathematics. I was a research associate in the Mathematics for Uncertainty Quantification group at RWTH Aachen University, analyzing stochastic differential equations. I hold a master’s degree in Scientific Computing from Heidelberg University, where I specialized in partial differential equation analysis, and a bachelor’s degree in Applied Mathematics from Shiraz University. <a href="assets/CV.pdf" target="_blank" download>Download CV</a></p>
+          <p>Before this, I mainly considered the theoretical aspects of Applied Mathematics. I was a research associate in the Mathematics for Uncertainty Quantification group at RWTH Aachen University, analyzing stochastic differential equations. I hold a master’s degree in Scientific Computing from Heidelberg University, where I specialized in partial differential equation analysis, and a bachelor’s degree in Applied Mathematics from Shiraz University. <a href="assets/CV.pdf" target="_blank">View CV</a></p>
         </div>
       </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Publications Section (moved before Projects) -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="publications-grid">
+        <!-- Publication 1 -->
+        <div class="publication-card fade-in">
+          <h3>CenterArt: Joint Shape Reconstruction and 6-DoF Grasp Estimation of Articulated Objects <small>(ICRA Workshop)</small></h3>
+          <p class="links">
+            <a href="#" title="View PDF Paper">PDF <i class="fas fa-file-pdf"></i></a> |
+            <a href="#" title="View Code Repository">Code <i class="fab fa-github"></i></a> |
+            <a href="#" title="View Poster">Poster <i class="fas fa-image"></i></a> |
+            <a href="#" title="Watch Video">Video <i class="fas fa-play-circle"></i></a>
+          </p>
+          <ul>
+            <li>Introduce the first approach capable of jointly reconstructing 3D shapes and predicting 6-DoF grasp poses for articulated objects</li>
+            <li>Generate a dataset of valid 6-DoF grasp poses for articulated objects</li>
+            <li>Generate a dataset of photo-realistic kitchen scenes consisting of articulated objects</li>
+          </ul>
+        </div>
+        <!-- Publication 2 -->
+        <div class="publication-card fade-in">
+          <h3>Syn-Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities <small>(RA-L Journal)</small></h3>
+          <p class="links">
+            <a href="#" title="View PDF Paper">PDF <i class="fas fa-file-pdf"></i></a> |
+            <a href="#" title="Visit Project Website">Website <i class="fas fa-external-link-alt"></i></a> |
+            <a href="#" title="Watch Video">Video <i class="fas fa-play-circle"></i></a>
+          </p>
+          <ul>
+            <li>The first hyper-realistic multimodal synthetic dataset of diverse healthcare facilities</li>
+            <li>Provide more than 1.5M annotations spanning five different scene understanding tasks</li>
+            <li>Provide an online evaluation benchmark along with the public dataset</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section (now after Publications) -->
     <section id="projects">
       <h2>Projects</h2>
       <div class="projects-grid">
         <!-- Project 1 -->
         <div class="project-card fade-in">
-          <!-- Example thumbnail (image or GIF) for project -->
-          <!-- <img src="assets/project1.gif" alt="Policy Learning project demo" /> -->
           <h3>Policy Learning for Real-time Generative Grasp Synthesis</h3>
           <p class="links">
             <a href="#" title="View Slides">Slides <i class="fas fa-external-link-alt"></i></a> |
@@ -113,42 +147,6 @@
             <li>Utilize the Lagrange finite element methods to numerically solve this time-dependent PDE with mesh refinement</li>
             <li>Calibrate the local volatility function from observed option prices to address real-world shortcomings of the Black-Scholes equation</li>
             <li>Test the method on real-world option prices</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Publications Section -->
-    <section id="publications">
-      <h2>Publications</h2>
-      <div class="publications-grid">
-        <!-- Publication 1 -->
-        <div class="publication-card fade-in">
-          <h3>CenterArt: Joint Shape Reconstruction and 6-DoF Grasp Estimation of Articulated Objects <small>(ICRA Workshop)</small></h3>
-          <p class="links">
-            <a href="#" title="View PDF Paper">PDF <i class="fas fa-file-pdf"></i></a> |
-            <a href="#" title="View Code Repository">Code <i class="fab fa-github"></i></a> |
-            <a href="#" title="View Poster">Poster <i class="fas fa-image"></i></a> |
-            <a href="#" title="Watch Video">Video <i class="fas fa-play-circle"></i></a>
-          </p>
-          <ul>
-            <li>Introduce the first approach capable of jointly reconstructing 3D shapes and predicting 6-DoF grasp poses for articulated objects</li>
-            <li>Generate a dataset of valid 6-DoF grasp poses for articulated objects</li>
-            <li>Generate a dataset of photo-realistic kitchen scenes consisting of articulated objects</li>
-          </ul>
-        </div>
-        <!-- Publication 2 -->
-        <div class="publication-card fade-in">
-          <h3>Syn-Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities <small>(RA-L Journal)</small></h3>
-          <p class="links">
-            <a href="#" title="View PDF Paper">PDF <i class="fas fa-file-pdf"></i></a> |
-            <a href="#" title="Visit Project Website">Website <i class="fas fa-external-link-alt"></i></a> |
-            <a href="#" title="Watch Video">Video <i class="fas fa-play-circle"></i></a>
-          </p>
-          <ul>
-            <li>The first hyper-realistic multimodal synthetic dataset of diverse healthcare facilities</li>
-            <li>Provide more than 1.5M annotations spanning five different scene understanding tasks</li>
-            <li>Provide an online evaluation benchmark along with the public dataset</li>
           </ul>
         </div>
       </div>
