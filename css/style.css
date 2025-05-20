@@ -1,0 +1,238 @@
+/* Base reset and fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #fff;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.5em;
+  }
+  h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  h3.tagline {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #555;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  /* Layout containers */
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+  section:nth-of-type(even) {
+    background: #f9f9f9;
+  }
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .about-content .photo {
+    flex: 1 1 200px;
+    max-width: 200px;
+  }
+  .about-content .photo img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  .about-content .bio {
+    flex: 2 1 300px;
+  }
+  .about-content .bio p {
+    margin-bottom: 1em;
+  }
+  
+  /* Navigation Bar */
+  header nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+  }
+  .nav-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+  }
+  .logo {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #333;
+  }
+  .logo:hover {
+    text-decoration: none;
+    color: #000;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .menu li {
+    display: inline;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+  }
+  .menu a:hover {
+    color: #000;
+  }
+  .nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+  }
+  
+  /* Responsive Navigation (Hamburger menu) */
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      background: #fff;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    .menu li {
+      display: block;
+      margin: 5px 0;
+    }
+    .nav-toggle {
+      display: block;
+      cursor: pointer;
+      color: #333;
+    }
+    nav.nav-open .menu {
+      display: flex;
+    }
+  }
+  
+  /* Projects & Publications grid and cards */
+  .projects-grid, .publications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .project-card, .publication-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .project-card h3, .publication-card h3 {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+  }
+  .project-card .links, .publication-card .links {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+  }
+  .project-card .links a, .publication-card .links a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  .project-card .links a:hover, .publication-card .links a:hover {
+    text-decoration: underline;
+  }
+  .project-card ul, .publication-card ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+  .project-card ul li, .publication-card ul li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Contact form */
+  #contact p {
+    margin-bottom: 1em;
+  }
+  form#contact-form {
+    max-width: 600px;
+  }
+  .form-group {
+    margin-bottom: 1em;
+  }
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+  }
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form-group input:focus, .form-group textarea:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  button[type=submit] {
+    background: #3498db;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  button[type=submit]:hover {
+    background: #2980b9;
+  }
+  
+  /* Smooth scrolling behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Fade-in animation for elements */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
