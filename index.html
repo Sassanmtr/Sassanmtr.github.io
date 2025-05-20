@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sassan Mokhtar - Portfolio</title>
+    <title>Sassan Mokhtar – Portfolio</title>
+
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
     <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -16,14 +17,14 @@
     <header>
       <nav>
         <div class="nav-container">
-          <a href="#" class="logo">Sassan Mokhtar</a>
+          <a href="#" class="logo">Sassan Mokhtar</a>
           <button id="navToggle" class="nav-toggle"><i class="fas fa-bars"></i></button>
           <ul class="menu">
             <li><a href="#about">About</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="assets/CV.pdf" target="_blank">Resume</a></li>
+            <li><a href="assets/CV.pdf" target="_blank" rel="noopener">Resume</a></li>
           </ul>
         </div>
       </nav>
@@ -31,17 +32,31 @@
 
     <!-- About Section -->
     <section id="about">
-      <h1>Sassan Mokhtar</h1>
-      <h3 class="tagline">PhD Candidate · Computer Vision Group · University of Bonn</h3>
+      <h1>Sassan Mokhtar</h1>
+      <h3 class="tagline">PhD Candidate · Computer Vision Group · University of Bonn</h3>
       <div class="about-content">
         <!-- Profile Image -->
         <div class="photo">
-          <img src="assets/profile.jpg" alt="Sassan Mokhtar" />
+          <img src="assets/profile.jpg" alt="Sassan Mokhtar" />
         </div>
         <!-- Bio text -->
         <div class="bio">
-          <p>Hi there, I’m <strong>Sassan</strong> — a PhD candidate in the Computer Vision Group at the University of Bonn under the supervision of Prof. Jürgen Gall. My research asks a simple question: <em>can we stop human mistakes before they happen?</em> I build systems that forecast errors from video and deliver real‑time auditory feedback.</p>
-          <p>Previously, I interned at <strong>Endress + Hauser</strong>, applying large language models to industrial anomaly‑classification tasks, and at the <strong>Robot Learning Lab, University of Freiburg</strong>, where I worked on robot manipulation and scene‑understanding problems. I come from an applied‑mathematics background, holding an M.Sc. in Scientific Computing from <strong>Heidelberg University</strong> and a B.Sc. in Applied Mathematics from <strong>Shiraz University</strong>. <a href="assets/CV.pdf" target="_blank">View CV</a></p>
+          <p>
+            Hi there, I’m <strong>Sassan</strong> — a PhD candidate in the Computer Vision
+            Group at the University of Bonn under the supervision of Prof. Jürgen Gall. My
+            research asks a simple question: <em>can we stop human mistakes before they
+              happen?</em> I build systems that forecast errors from video and deliver
+            real‑time auditory feedback.
+          </p>
+          <p>
+            Previously, I interned at <strong>Endress + Hauser</strong>, applying large
+            language models to industrial anomaly‑classification tasks, and at the
+            <strong>Robot Learning Lab, University of Freiburg</strong>, where I worked on
+            robot manipulation and scene‑understanding problems. I come from an
+            applied‑mathematics background, holding an M.Sc. in Scientific Computing from
+            <strong>Heidelberg University</strong> and a B.Sc. in Applied Mathematics from
+            <strong>Shiraz University</strong>. <a href="assets/CV.pdf" target="_blank" rel="noopener">View CV</a>
+          </p>
         </div>
       </div>
     </section>
@@ -50,79 +65,49 @@
     <section id="publications">
       <h2>Publications</h2>
       <div class="publications-grid">
-        <!-- Publication 1 -->
+        <!-- Publication 1 -->
         <div class="publication-card fade-in">
-            <h3>
-            Detect, Classify, Act: Categorizing Industrial Anomalies with Multi-Modal Large Language Models
-            <small>(CVPRW 2025)</small>
-            </h3>
-        
-            <p class="links">
-            <a href="https://arxiv.org/abs/2505.02626v1"   target="_blank" rel="noopener" title="View PDF Paper">
-                PDF <i class="fas fa-file-pdf"></i>
-            </a> |
-            <a href="https://github.com/Sassanmtr/VELM" target="_blank" rel="noopener" title="View Code Repository">
-                Code <i class="fab fa-github"></i>
-            </a> |
-            <a href="https://docs.google.com/presentation/d/1VLDDxsHh8oXfJH_cY2bRDJERIh0bBEGUornfIgjpADU/edit?usp=sharing"
-                target="_blank" rel="noopener" title="View Poster">
-                Poster <i class="fas fa-image"></i>
-            </p>
-        
-            <ul>
-              <li>Present <strong>VELM</strong> – a two-stage pipeline that pairs a fast unsupervised vision expert with a large-language-model head to classify industrial anomaly types</li>
-              <li>Release <strong>MVTec-AC</strong> and <strong>VisA-AC</strong>, upgraded versions of popular anomaly-detection datasets for anomaly classification task</li>
-              <li>Set a new state-of-the-art for anomaly classification: 80.4 % accuracy on MVTec-AD (+5 % vs. prior work) and 84 % on MVTec-AC, demonstrating effective anomaly categorization</li>
-            </ul>
-        </div>
-
-        <!-- Publication 2 -->
-        <div class="publication-card fade-in">
-            <h3>
-            CenterArt: Joint Shape Reconstruction and 6-DoF Grasp Estimation of Articulated Objects
-            <small>(ICRA Workshop 2024)</small>
-            </h3>
-        
-            <p class="links">
-            <a href="https://arxiv.org/abs/2404.14968"   target="_blank" rel="noopener" title="View PDF Paper">
-                PDF <i class="fas fa-file-pdf"></i>
-            </a> |
-            <a href="https://github.com/Sassanmtr/CenterArt" target="_blank" rel="noopener" title="View Code Repository">
-                Code <i class="fab fa-github"></i>
-            </a> |
-            <a href="https://docs.google.com/presentation/d/1QPcWd_ctpFwbuVFwgEyJNDXbCQiH0S6Sl7WAc27zNko/edit?usp=sharing"
-                target="_blank" rel="noopener" title="View Poster">
-                Poster <i class="fas fa-image"></i>
-            </a> |
-            <a href="https://youtu.be/yhFBh0kZs5Y"       target="_blank" rel="noopener" title="Watch Video">
-                Video <i class="fas fa-play-circle"></i>
-            </a>
-            </p>
-        
-            <ul>
-              <li>Introduce the first approach capable of jointly reconstructing 3D shapes and predicting 6-DoF grasp poses for articulated objects</li>
-              <li>Generate a dataset of valid 6-DoF grasp poses for articulated objects</li>
-              <li>Generate a dataset of photo-realistic kitchen scenes consisting of articulated objects</li>
-            </ul>
-        </div>
-        <!-- Publication 3 -->
-        <div class="publication-card fade-in">
-          <h3>Syn-Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities <small>(ICRA 2025)</small></h3>
+          <h3>Detect, Classify, Act: Categorizing Industrial Anomalies with Multi‑Modal Large Language Models <small>(CVPR W 2025)</small></h3>
           <p class="links">
-            <a href="https://arxiv.org/abs/2308.03193"   target="_blank" rel="noopener" title="View PDF Paper">
-                PDF <i class="fas fa-file-pdf"></i>
-            </a> |
-            <a href="https://syn-mediverse.cs.uni-freiburg.de/index"   target="_blank" rel="noopener" title="Visit Project Website">
-                Website <i class="fas fa-external-link-alt"></i>
-            </a> |
-            <a href="https://www.youtube.com/watch?v=itAL_z_8kHY"       target="_blank" rel="noopener" title="Watch Video">
-                Video <i class="fas fa-play-circle"></i>
-            </a>
+            <a href="https://arxiv.org/abs/2505.02626v1" target="_blank" rel="noopener" title="View PDF Paper">PDF <i class="fas fa-file-pdf"></i></a> |
+            <a href="https://github.com/Sassanmtr/VELM" target="_blank" rel="noopener" title="View Code Repository">Code <i class="fab fa-github"></i></a> |
+            <a href="https://docs.google.com/presentation/d/1VLDDxsHh8oXfJH_cY2bRDJERIh0bBEGUornfIgjpADU/edit?usp=sharing" target="_blank" rel="noopener" title="View Poster">Poster <i class="fas fa-image"></i></a>
           </p>
           <ul>
-            <li>The first hyper-realistic multimodal synthetic dataset of diverse healthcare facilities</li>
-            <li>Provide more than 1.5M annotations spanning five different scene understanding tasks</li>
-            <li>Provide an online evaluation benchmark along with the public dataset</li>
+            <li>Present <strong>VELM</strong> – a two‑stage pipeline that pairs a fast unsupervised vision expert with a large‑language‑model head to classify industrial anomaly types</li>
+            <li>Release <strong>MVTec‑AC</strong> and <strong>VisA‑AC</strong>, upgraded versions of popular anomaly‑detection datasets for anomaly‑classification tasks</li>
+            <li>Set a new state‑of‑the‑art: 80.4 % accuracy on MVTec‑AD (+5 % vs. prior work) and 84 % on MVTec‑AC</li>
+          </ul>
+        </div>
+
+        <!-- Publication 2 -->
+        <div class="publication-card fade-in">
+          <h3>CenterArt: Joint Shape Reconstruction and 6‑DoF Grasp Estimation of Articulated Objects <small>(ICRA Workshop 2024)</small></h3>
+          <p class="links">
+            <a href="https://arxiv.org/abs/2404.14968" target="_blank" rel="noopener" title="View PDF Paper">PDF <i class="fas fa-file-pdf"></i></a> |
+            <a href="https://github.com/Sassanmtr/CenterArt" target="_blank" rel="noopener" title="View Code Repository">Code <i class="fab fa-github"></i></a> |
+            <a href="https://docs.google.com/presentation/d/1QPcWd_ctpFwbuVFwgEyJNDXbCQiH0S6Sl7WAc27zNko/edit?usp=sharing" target="_blank" rel="noopener" title="View Poster">Poster <i class="fas fa-image"></i></a> |
+            <a href="https://youtu.be/yhFBh0kZs5Y" target="_blank" rel="noopener" title="Watch Video">Video <i class="fas fa-play-circle"></i></a>
+          </p>
+          <ul>
+            <li>Introduce the first approach capable of jointly reconstructing 3D shapes and predicting 6‑DoF grasp poses for articulated objects</li>
+            <li>Create a dataset of valid 6‑DoF grasp poses for articulated objects</li>
+            <li>Generate photo‑realistic kitchen scenes containing articulated objects</li>
+          </ul>
+        </div>
+
+        <!-- Publication 3 -->
+        <div class="publication-card fade-in">
+          <h3>Syn‑Mediverse: A Multimodal Synthetic Dataset for Intelligent Scene Understanding of Healthcare Facilities <small>(RA‑L 2023)</small></h3>
+          <p class="links">
+            <a href="https://arxiv.org/abs/2308.03193" target="_blank" rel="noopener" title="View PDF Paper">PDF <i class="fas fa-file-pdf"></i></a> |
+            <a href="https://syn-mediverse.cs.uni-freiburg.de/index" target="_blank" rel="noopener" title="Visit Project Website">Website <i class="fas fa-external-link-alt"></i></a> |
+            <a href="https://www.youtube.com/watch?v=itAL_z_8kHY" target="_blank" rel="noopener" title="Watch Video">Video <i class="fas fa-play-circle"></i></a>
+          </p>
+          <ul>
+            <li>First hyper‑realistic multimodal synthetic dataset of diverse healthcare facilities</li>
+            <li>1.5 M+ annotations spanning five scene‑understanding tasks</li>
+            <li>Accompanied by an online benchmark and evaluation server</li>
           </ul>
         </div>
       </div>
@@ -132,77 +117,52 @@
     <section id="projects">
       <h2>Projects</h2>
       <div class="projects-grid">
-        <!-- Project 1 -->
+        <!-- Project 1 -->
         <div class="project-card fade-in">
-          <h3>Policy Learning for Real-time Generative Grasp Synthesis</h3>
+          <h3>Policy Learning for Real‑time Generative Grasp Synthesis</h3>
           <p class="links">
-            <a href="assets/MasterProject.pdf"   target="_blank" rel="noopener" title="View Slides">
-                Slides <i class="fas fa-file-pdf"></i>
-            </a> |
-            <a href="https://github.com/Sassanmtr/GraspPolicyLearning" target="_blank" rel="noopener" title="View Code Repository">
-                Code <i class="fab fa-github"></i>
-            </a> |
+            <a href="assets/MasterProject.pdf" target="_blank" rel="noopener" title="View Slides">Slides <i class="fas fa-file-pdf"></i></a> |
+            <a href="https://github.com/Sassanmtr/GraspPolicyLearning" target="_blank" rel="noopener" title="View Code Repository">Code <i class="fab fa-github"></i></a>
           </p>
           <ul>
-            <li>Design a realistic setup for mobile manipulation robot grasping in Isaac Sim</li>
-            <li>Evaluate the performance of computer-vision-based and policy-learning-based approaches</li>
-            <li>Develop an interactive imitation learning model that outperforms existing models in this setup</li>
+            <li>Designed a realistic Isaac Sim setup for mobile‑manipulation grasping</li>
+            <li>Compared computer‑vision and policy‑learning approaches</li>
+            <li>Developed an interactive imitation‑learning model that outperforms baselines</li>
           </ul>
         </div>
-        <!-- Project 2 -->
+
+        <!-- Project 2 -->
         <div class="project-card fade-in">
-          <h3>Robot Skill Adaptation via Soft Actor-Critic Gaussian Mixture Models</h3>
+          <h3>Robot Skill Adaptation via Soft Actor‑Critic Gaussian Mixture Models</h3>
           <p class="links">
-            <a href="assets/poster.pdf"   target="_blank" rel="noopener" title="View Slides">
-                Slides <i class="fas fa-file-pdf"></i>
-            </a> |
+            <a href="assets/poster.pdf" target="_blank" rel="noopener" title="View Poster">Poster <i class="fas fa-file-pdf"></i></a>
           </p>
           <ul>
-            <li>Learn a dynamical model with Gaussian mixture models from a few demonstrations</li>
-            <li>Refine the learned Gaussian mixture model with the Soft Actor-Critic model</li>
-            <li>Apply an autoencoder to process the input images in latent space</li>
+            <li>Learned a dynamical model with Gaussian mixture models from few demos</li>
+            <li>Refined the model using a Soft Actor‑Critic policy</li>
+            <li>Processed visual observations in latent space via an autoencoder</li>
           </ul>
         </div>
-        <!-- Project 3 -->
+
+        <!-- Project 3 -->
         <div class="project-card fade-in">
           <h3>Optimal Importance Sampling Change of Measure for Large Sums of Random Variables</h3>
           <p class="links">
-            <a href="assets/Rare_event.pdf"   target="_blank" rel="noopener" title="View Slides">
-                Slides <i class="fas fa-file-pdf"></i>
-            </a> |
-            <a href="assets/WeibullRareEvent.m" target="_blank" rel="noopener" title="View Code Repository">
-                Code <i class="fab fa-github"></i>
-            </a> |
+            <a href="assets/Rare_event.pdf" target="_blank" rel="noopener" title="View Slides">Slides <i class="fas fa-file-pdf"></i></a> |
+            <a href="assets/WeibullRareEvent.m" target="_blank" rel="noopener" title="Download MATLAB Code">Code <i class="fab fa-github"></i></a>
           </p>
           <ul>
-            <li>Evaluate different approaches based on importance sampling to estimate rare-event probabilities</li>
-            <li>Develop an alternative change of measure using exponential twisting that leads to the same performance as the optimal change of measure but without its computational limitations</li>
+            <li>Compared importance‑sampling strategies for rare‑event estimation</li>
+            <li>Proposed an exponential‑twisting change of measure matching optimal performance without heavy computation</li>
           </ul>
         </div>
-        <!-- Project 4 -->
-        <div class="project-card fade-in">
-          <h3>Risk-Averse Optimal Control</h3>
-          <p class="links">
-            <a href="assets/Risk-averse Optimal Control.pdf"   target="_blank" rel="noopener" title="View Slides">
-                Slides <i class="fas fa-file-pdf"></i>
-            </a> |
-          </p>
-          <ul>
-            <li>Analysis of the underlying SDE that results in an optimal strategy for Merton’s Portfolio Problem</li>
-            <li>Study of different risk measures to consider the risk-averse version of the Portfolio Problem</li>
-            <li>Derive the solution of the SDE that describes the dynamics of the risk-averse Merton’s Portfolio Problem as a closed-form formula</li>
-          </ul>
-        </div>
-        <!-- Project 5 -->
-        <div class="project-card fade-in">
-          <h3>Analysis and Computation of Black-Scholes Equation with Local Volatility</h3>
-          <p class="links">
-            <a href="assets/MasterThesisHeidelberg.pdf"   target="_blank" rel="noopener" title="View PDF">
-                PDF <i class="fas fa-file-pdf"></i>
-            </a> |
-          </p>
-          <ul>
-            <li>Mathematical analysis of the Black-Scholes equation (second-order PDE) for evaluating option contracts</li>
-            <li>Utilize the Lagrange finite element methods to numerically solve this time-dependent PDE with mesh refinement</li>
-            <li>Calibrate the local volatility function from observed option prices to address real-world shortcomings of the Black-Scholes equation</
 
+        <!-- Project 4 -->
+        <div class="project-card fade-in">
+          <h3>Risk‑Averse Optimal Control</h3>
+          <p class="links">
+            <a href="assets/Risk-averse Optimal Control.pdf" target="_blank" rel="noopener" title="View Paper">Paper <i class="fas fa-file-pdf"></i></a>
+          </p>
+          <ul>
+            <li>Analyzed the stochastic differential equation underlying Merton’s portfolio problem</li>
+            <li>Extended the formulation with coherent risk measures to obtain a risk‑averse strategy</
